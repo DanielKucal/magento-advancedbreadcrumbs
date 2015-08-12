@@ -14,6 +14,10 @@ class Merix_AdvancedBreadcrumbs_Block_Breadcrumbs extends Mage_Page_Block_Html_B
 
     protected function _beforeToHtml()
     {
+        if (!$this->_crumbs) {
+            return parent::_beforeToHtml();
+        }
+
         $crumbs = array_values($this->_crumbs);
         $keys = array_keys($this->_crumbs);
 
