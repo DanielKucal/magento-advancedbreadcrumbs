@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Merix_AdvancedBreadcrumbs>
+            <version>1.0.0</version>
+        </Merix_AdvancedBreadcrumbs>
+    </modules>
+    <global>
+        <blocks>
+            <merix_advancedbreadcrumbs>
+                <class>Merix_AdvancedBreadcrumbs_Block</class>
+            </merix_advancedbreadcrumbs>
+            <page>
+                <rewrite>
+                    <html_breadcrumbs>Merix_AdvancedBreadcrumbs_Block_Breadcrumbs</html_breadcrumbs>
+                </rewrite>
+            </page>
+        </blocks>
+        <helpers>
+            <merix_advancedbreadcrumbs>
+                <class>Merix_AdvancedBreadcrumbs_Helper</class>
+            </merix_advancedbreadcrumbs>
+        </helpers>
+        <models>
+            <merix_advancedbreadcrumbs>
+                <class>Merix_AdvancedBreadcrumbs_Model</class>
+            </merix_advancedbreadcrumbs>
+        </models>
+    </global>
+</config>

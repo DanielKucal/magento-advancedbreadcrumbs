@@ -1,0 +1,3 @@
+app/code/local/Merix/AdvancedBreadcrumbs
+app/design/frontend/base/default/template/merix/advancedbreadcrumbs.phtml
+app/etc/modules/Merix_AdvancedBreadcrumbs.xml
