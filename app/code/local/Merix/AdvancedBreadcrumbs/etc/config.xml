@@ -27,4 +27,13 @@
             </merix_advancedbreadcrumbs>
         </models>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <merix_allcategories>
+                    <file>merix/advancedbreadcrumbs.xml</file>
+                </merix_allcategories>
+            </updates>
+        </layout>
+    </frontend>
 </config>

@@ -66,15 +66,6 @@ class Merix_AdvancedBreadcrumbs_Block_Breadcrumbs extends Mage_Page_Block_Html_B
         return parent::_beforeToHtml();
     }
 
-    protected function _getPath($url)
-    {
-        $parser = parse_url($url);
-        $path = isset($parser['path']) ? $parser['path'] : '';
-        $path = explode('/', $path);
-        $path[count($path) - 1] = basename($path[count($path) - 1], '.html');
-        return array_filter($path);
-    }
-
     public function getCacheKeyInfo()
     {
         return array(
