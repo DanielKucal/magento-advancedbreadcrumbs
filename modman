@@ -2,4 +2,4 @@ app/code/local/Merix/AdvancedBreadcrumbs
 app/design/frontend/base/default/template/merix/advancedbreadcrumbs.phtml
 app/design/frontend/base/default/layout/merix/advancedbreadcrumbs.xml
 app/etc/modules/Merix_AdvancedBreadcrumbs.xml
-app/skin/frontend/base/default/css/merix/advanced-breadcrumbs.css
+skin/frontend/base/default/css/merix/advanced-breadcrumbs.css
