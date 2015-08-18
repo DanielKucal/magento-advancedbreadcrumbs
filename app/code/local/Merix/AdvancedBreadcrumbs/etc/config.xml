@@ -30,9 +30,9 @@
     <frontend>
         <layout>
             <updates>
-                <merix_allcategories>
+                <merix_advancedbreadcrumbs>
                     <file>merix/advancedbreadcrumbs.xml</file>
-                </merix_allcategories>
+                </merix_advancedbreadcrumbs>
             </updates>
         </layout>
     </frontend>
