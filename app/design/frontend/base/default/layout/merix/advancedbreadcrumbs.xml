@@ -5,4 +5,7 @@
             <action method="addCss"><stylesheet>css/merix/advanced-breadcrumbs.css</stylesheet></action>
         </reference>
     </catalog_category_view>
+    <catalog_product_view>
+        <action method="addCss"><stylesheet>css/merix/advanced-breadcrumbs.css</stylesheet></action>
+    </catalog_product_view>
 </layout>
