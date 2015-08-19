@@ -38,6 +38,7 @@ class Merix_AdvancedBreadcrumbs_Block_Breadcrumbs extends Mage_Page_Block_Html_B
             ->addAttributeToSelect('url_key')
             ->addAttributeToSelect('url')
             ->addAttributeToSelect('is_active')
+            ->addAttributeToSelect('include_in_menu')
             ->addAttributeToFilter('parent_id', array('in' => $parentIds))
             ->addAttributeToSort('position');
         $categoryToParent = array();
