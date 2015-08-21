@@ -3,3 +3,4 @@ app/design/frontend/base/default/template/merix/advancedbreadcrumbs.phtml
 app/design/frontend/base/default/layout/merix/advancedbreadcrumbs.xml
 app/etc/modules/Merix_AdvancedBreadcrumbs.xml
 skin/frontend/base/default/css/merix/advanced-breadcrumbs.css
+skin/frontend/base/default/js/merix/advanced-breadcrumbs.js
