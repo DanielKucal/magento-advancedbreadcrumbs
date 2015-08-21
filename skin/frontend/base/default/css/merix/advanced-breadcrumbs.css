@@ -1,0 +1,39 @@
+.breadcrumbs {
+    position: relative;
+    z-index: 2;
+    overflow: visible !important;
+}
+.breadcrumbs:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.breadcrumbs .expandable {
+    position: relative;
+}
+.breadcrumbs .expanded {
+    position: absolute;
+    top: 100%;
+    left: -10px;
+    display: none;
+    width: 150px;
+    padding: 10px;
+    background: #fff;
+}
+.breadcrumbs .expanded li {
+    float: none;
+    display: list-item;
+}
+.breadcrumbs .expanded li + li {
+    margin-top: 10px;
+}
+.breadcrumbs .expanded li a {
+    float: none;
+    display: block;
+}
+.breadcrumbs-opener {
+    display: inline-block;
+    padding-right: 0;
+    font-size: 12px;
+    cursor: pointer;
+}
