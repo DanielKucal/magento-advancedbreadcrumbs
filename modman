@@ -1,4 +1,4 @@
-app/code/local/Merix/AdvancedBreadcrumbs
+app/code/community/Merix/AdvancedBreadcrumbs
 app/design/frontend/base/default/template/merix/advancedbreadcrumbs.phtml
 app/design/frontend/base/default/layout/merix/advancedbreadcrumbs.xml
 app/etc/modules/Merix_AdvancedBreadcrumbs.xml

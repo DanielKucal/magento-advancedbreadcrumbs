@@ -1,3 +1,8 @@
-# AdvancedBreadcrumbs
+# Advanced Breadcrumbs
+#### Magento module
 
-**AdvancedBreadcrumbs** module replaces standard Magento's breadcrumbs adding subcategories.
+**Merix_AdvancedBreadcrumbs** module adds subcategories to standard Magento's breadcrumbs.
+
+Module is ready to install via [Modman](https://github.com/colinmollenhour/modman).
+
+##### Created for **[MerixStudio](http://merixstudio.com)**.
